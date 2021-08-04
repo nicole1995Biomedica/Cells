@@ -1,0 +1,4 @@
+- Analizzare come variano le grandezze della cellula nel tempo: per esempio analizzo come varia l’area della cellula nel tempo 
+- Vedere se cellule dello stesso lignaggio (figlie l’una dell’altra) (00:16.33) presentano valori di fluorescenza simili rispetto a cellule che non sono parenti. Cioè le divido per famiglie, dove quelle che hanno lo zero sono le cellule madri originali. Ogni fil res è una camera con tutte le cellule da suddividere al loro interno in ste famiglie di cui analizzo e confronto la fluorescenza 
+- Confrontare aree tra famiglie diverse 
+- Confrontare fluorescenza in famiglie diverse
