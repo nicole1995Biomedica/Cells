@@ -77,17 +77,28 @@ zeri=zeros(1,length(ColMoth));
  
  
  
- 
+
  
 %%% FIND RELATIONS
+sorted=sort(ColMoth)
 lastSon=max(ColMoth);
 indexLastSon=find(ColMoth==lastSon);
-relation1=[];
-for i=length(ColMoth):-1:1
-     ralation(length(ColMoth)-i)=indexLastSon;      
-     indexLastSon=ColMoth(indexLastSon);
-     
+
+% for i=length(ColMoth):-1:2
+%      relation(i)=indexLastSon;      
+%      indexLastSon=ColMoth(indexLastSon);
+%      
+% end
+for j=1:length(ColMoth)
+    
+     while(indexLastSon~=0)
+         relation(i,j)=indexLastSon;
+         indexLastSon=ColMoth(indexLastSon);
+         i=i+1;
+    end
+    indexLastSon=sorted(length(ColMoth)-j+1);
 end
+
 
 %for k=1:length(ColMoth))
     
